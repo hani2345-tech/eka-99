@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>“Achieve More, Inspire All!”</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #b4b9cad7;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Grid container */
+        .activity-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        /* Activity box styling */
+        .activity-box {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            padding: 30px;  /* Increased padding */
+            transition: transform 0.3s;
+            height: 450px;  /* Increased height */
+        }
+
+        .activity-box:hover {
+            transform: translateY(-5px);
+        }
+
+        .activity-box img {
+            width: 100%;
+            height: 320px;  /* Increased height */
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .activity-box h2 {
+            margin: 15px 0;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .activity-box p {
+            font-size: 14px;
+            color: #777;
+        }
+
+        /* Responsiveness for smaller screens */
+        @media (max-width: 1200px) {
+            .activity-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .activity-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .activity-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>“Achieve More, Inspire All!”</h1>
+    <div class="activity-grid">
+        <!-- Activity 1 -->
+        <div class="activity-box">
+            <a href="https://lookerstudio.google.com/reporting/8b790296-404a-4f33-83ec-3ca2ea239fb4/page/0nmwD">
+                <img src="foto 1.png" alt="bg1">
+                <h2>Lomba kejuruan SMK</h2>
+            </a>
+        </div>
+        <!-- Activity 2 -->
+        <div class="activity-box">
+            <a href="https://youtu.be/hRocXdQdDkI?si=Pb8SEXVWs9XUKIxb">
+                <img src="foto 2.jpg" alt="bg2">
+                <h2>Lomba Non Akademik</h2>
+            </a>
+        </div>
+        <!-- Activity 3 -->
+        <div class="activity-box">
+                <img src="foto 3.jpg" alt="bg3">
+                <h2>Sport Competition</h2>
+        </div>
+        <!-- Activity 4 -->
+        <div class="activity-box">
+            <a href="https://smk.kemendikdasmen.go.id/berita/pedoman-dan-instrumen-ukk-smk-tahun-2025">
+                <img src="foto 4.jpg" alt="bg5">
+                <h2>Ujian Keahlian Kompetensi</h2>
+            </a>
+    </div>
+</div>
+
+</body>
+</html>
